@@ -1,13 +1,13 @@
 class Opener < Formula
   desc "Open URL from the remote"
   homepage "https://github.com/superbrothers/opener"
-  version "0.0.3"
+  version "0.1.0"
   if Hardware::CPU.arm?
     url "https://github.com/superbrothers/opener/releases/download/v#{version}/opener-darwin-arm64.zip"
-    sha256 "686ec15b8b6c63d36098def699fa32de7d1c13423daba7d225a0216905ddb56d"
+    sha256 "809349ba904bb50cabbcef7562eabd50d2e1e60250f26a99fc1caa3582b66b92"
   else
     url "https://github.com/superbrothers/opener/releases/download/v#{version}/opener-darwin-amd64.zip"
-    sha256 "b23f5cf9fea34d844aa407aafeba42c1ffc61aaafcf9d9ab6e699f453feeb09e"
+    sha256 "378eeaf89a9c147c77697e1c5182342887f5894b4082f614821bcb265a949099"
   end
   license "MIT"
 
