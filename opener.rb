@@ -1,22 +1,22 @@
 class Opener < Formula
   desc "Open URL from the remote"
   homepage "https://github.com/superbrothers/opener"
-  version "0.1.3"
+  version "0.1.4"
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/superbrothers/opener/releases/download/v#{version}/opener-darwin-arm64.zip"
-      sha256 "e508f34f1723d3d660b96be9e0b722b1ecfbc554232ad465e5b5c4b9e76abfd3"
+      sha256 "4c054bf09e84ce824982e8ce2a43f15dc4f93a5fa5c12e26b191b86d8aa23279"
     else
       url "https://github.com/superbrothers/opener/releases/download/v#{version}/opener-darwin-amd64.zip"
-      sha256 "54be4df6600c49f1f1bd1c0bfafadf52c93cd9a7d06da7a8680b34d08f31b73f"
+      sha256 "9056e37af7d98558419bead2a8eab6bab5981e07b46986abc0b1c3fabbc24dc8"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/superbrothers/opener/releases/download/v#{version}/opener-linux-arm64.zip"
-      sha256 "f7630b186c5809e20b459f34338aeaf90be36f4c5ad63ef46f283a9508a20722"
+      sha256 "938c9207da23450c8ef6595839b3e3838510419ba1e2b42d9cd82d1eaa3af952"
     else
       url "https://github.com/superbrothers/opener/releases/download/v#{version}/opener-linux-amd64.zip"
-      sha256 "473687cb91fcc1aa9301263f616afdc41f5e51e379510357cd8369556d98cee4"
+      sha256 "827bc060dc5e58ba12ca1877793d06ec8969a8a956a11c2ae997eb68f7091843"
     end
   end
   license "MIT"
