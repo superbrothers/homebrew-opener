@@ -5,7 +5,7 @@ class Opener < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/superbrothers/opener/releases/download/v#{version}/opener-darwin-arm64.zip"
-      sha256 "56ce18446ff77115faeba1e7602992d2e9dc30b540f9d66a79629c586edd7042"
+      sha256 "66ce18446ff77115faeba1e7602992d2e9dc30b540f9d66a79629c586edd7042"
     else
       url "https://github.com/superbrothers/opener/releases/download/v#{version}/opener-darwin-amd64.zip"
       sha256 "783efc22e6728d3a8193d8d427fae1e59f35d5236b1367428f0b69782ad8d9c2"
